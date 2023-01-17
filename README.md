@@ -38,7 +38,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Useful resources
 
 - [w3school](https://www.w3schools.com/) 
-*
+
 
 ## Author
 - Frontend Mentor - [@vanglepu](https://www.frontendmentor.io/profile/Vanglepu)
