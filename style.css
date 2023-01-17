@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #E0E8FF;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+h1,
+h2{
+    color: rgb(6, 6, 67);
+    font-weight: bolder;
+}
+
+
+section {
+    padding: 7em 0;
+  
+}
+
+.container{
+    margin: auto;
+    padding-bottom: 2.5em;
+    background-color: white;
+    width: 90%;
+    border-radius: 15px 15px 15px 15px;
+    /* border-width: 20%; */
+}
+
+@media screen and (min-width: 1440px) {
+    .container{
+        width: 30%;
+    }
+    
+}
+
+.pict img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.stuff{
+    text-align: center;
+}
+
+.stuff h1{
+    padding-top: 1em;
+    font-weight: 1000;
+}
+.stuff p{
+    text-align: center;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    line-height: 1.5em;
+    margin: 1em 1em 1em 1em;
+    font-size: 16px;
+    color: #797C7F;
+}
+
+@media screen and (min-width:1440px) {
+    .stuff p{
+        padding-bottom: 1em;
+        padding-right: 3em;
+        padding-left: 3em;
+    }
+    
+}
+
+
+.price{
+    margin: auto;
+    padding-bottom: 1em;
+    background-color: #F8F9FE;
+    width: 90%;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+}
+
+@media screen and (min-width: 1440px) {
+    .price{
+        width: 80%;
+        padding-bottom: 1em;
+    }
+
+    .price img{
+        margin-top: 1.5em;
+        margin-left: 1.5em;
+        width: 15%;
+    }
+
+    .price-content h2{
+        padding-left: 0.5em;
+        padding-top: 1em;
+        
+    }
+
+    .price-content h3{
+        padding-left: 0.5em;
+
+    }
+
+    .price a{
+        padding-left: 4.5em;
+        padding-top: 2.5em;
+    }
+    
+}
+
+.price img{
+    width: 15%;
+    height: 15%;
+    margin-top: 1em;
+    margin-left: 1em;
+    /* background-color: black; */
+}
+
+.price-content h2{
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-top: 1em;
+    font-weight: 550;
+    margin: auto;
+}
+
+.price-content h3{
+    font-size: 1.2em;
+    padding-top: 0.2em;
+    padding-left: 1em;
+    color: gray;
+    font-weight: 500;
+}
+
+.price a{
+    font-weight: bolder;
+    padding-left: 3.5em;
+    padding-top: 2.5em;
+    color: #382AE1;
+}
+
+.price a:hover{
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.button{
+    padding: 1.25em 5.5em;
+    font-weight: 600;
+    color: #fff;
+    background-color: #382AE1;
+    border-radius: 0.6em;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+    font-weight: 750;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 1440px) {
+    .button{
+        padding: 1em 6.5em;
+        margin-top: 2em;
+        margin-left: 2.6em;
+        margin-bottom: 2em;
+    }
+    
+}
+
+.button:hover{
+    background-color: #766CF1;
+}
+
+#cancel{
+    text-decoration: none;
+    color: gray;
+    font-weight: bolder;
+    margin-left: 8em;
+}
+
+@media screen and (min-width: 1440px) {
+    #cancel{
+        margin-left: 10.5em;
+    }
+    
+}
+
+#cancel:hover{
+    color: black;
+}
+
+footer{
+    margin: auto;
+}
